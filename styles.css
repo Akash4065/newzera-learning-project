@@ -1,0 +1,258 @@
+body{
+    margin: 0px 0px 0px 0px;
+    padding:none;
+    float:left;
+}
+.left{
+    float:left;
+    width:50%;
+    height:810px;
+    background-color: #FDE3D9;
+}
+.right{
+    float:left;
+    width:50%;
+    height:810px;
+    background-color:black;
+}
+.left,.right{
+    margin: 0px 0px 0px 0px;
+}
+.slide-image{
+    float:left;
+    width:100%;
+    height:810px;
+    margin: none;
+    padding: none;
+}
+.logo{
+    position: relative;
+    top: 33px;
+    left: 41px;
+}
+.logo-img{
+    height:62px;
+    width:194px;
+}
+.heading{
+    margin:0px 0px 0px 0px;
+    height:418px;
+    width:571px;
+}
+.para-head{
+    height: 162px;
+    width: 571px;
+    color: #3E3E3E;
+    font-family: "Lucida Console";
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 54px;
+    margin:0px 0px 20px 0px;
+    position:relative;
+    top:293px;
+    left:60px;
+}
+.para-text{
+    height: 108px;
+    width: 440px;
+    color: #6D6D6D;
+    font-family: "Lucida Console";
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: -0.11px;
+    line-height: 27px;
+    margin:0px 0px 0px 0px;
+    position: relative;
+    top:293px;
+    left:60px;
+}
+.buttons{
+    position: relative;
+    top:313px;
+    left:60px;
+    margin:0px 0px 0px 0px;
+    height: 80px;
+    width: 379px;
+}
+.heading-image{
+    height:54px;
+    width:160px;
+    margin:13.5px 12px 12.67px 0px;
+}
+.slideshow-container{
+    position:relative;
+}
+.slide-1{
+    display:block;
+}
+.slide-2{
+    display:none;
+}
+.myslides{
+    display:none;
+}
+.text{
+    color: white;
+    position:relative;
+    top:497px;
+    left:110px;
+}
+.dot {
+    cursor: pointer;
+    height: 4px;
+    width: 4px;
+    border-radius:2px;
+    background-color: #ffffff;
+    color:#000000;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot1{
+    position:relative;
+    left:110px;
+    bottom:160px;
+    margin:4px 4px 4px 4px;
+}
+.dot2{
+    position:relative;
+    left:110px;
+    bottom:160px;
+    margin:4px 4px 4px 4px;
+}
+.active, .dot:hover {
+    background-color: #FDE3D9;
+    border-color: #ffffff;
+    height:8px;
+    width:8px;
+    border-radius:4px;
+}
+.text-head{
+    color:white;
+    position:absolute;
+    top:497px;
+    left:111px;
+    height: 27px;
+    width: 220px;
+    color: #FFFFFF;
+    font-family: "Lucida Console";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.12px;
+    line-height: 27px;
+}
+.text{
+    position:absolute;
+    top:539px;
+    left:110px;
+    height: 81px;
+    width: 220px;
+    color: #FFE8DF;
+    font-family: "Lucida Console";
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: -0.11px;
+    line-height: 27px;
+}
+.menu-items{
+    position:absolute;
+    left:451px;
+    top:41px;
+    color:white;
+}
+ul#menu li{
+    display:inline;
+}
+.about{
+    height: 27px;
+    width: 35px;
+    color: #F7F7F7;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    padding:0px 15px 20px 0px;
+}
+.blog {
+    height: 27px;
+    width: 26px;
+    color: #F7F7F7;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    padding:0px 15px 20px 0px;
+}
+.careers {
+    height: 27px;
+    width: 44px;
+    color: #F7F7F7;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    padding:0px 15px 20px 0px;
+}
+.contact {
+    height: 27px;
+    width: 46px;
+    color: #F7F7F7;
+    font-family: "Lucida Console";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 27px;
+    padding:0px 15px 20px 0px;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.fb{
+    height: 15.24px;
+    width: 7.13px;
+    position:relative;
+    left:575px;
+    bottom:50px;
+    padding-right:38.1px;
+}
+.ig{
+    height: 15.24px;
+    width: 15.24px;
+    position:relative;
+    left:575px;
+    bottom:50px;
+    padding-right:38.1px;
+}
+.tw{
+    height: 12.72px;
+    width: 15.24px;
+    position:relative;
+    left:575px;
+    bottom:50px;
+    padding-right:38.1px;
+}
+.lk{
+    height: 15.37px;
+    width: 15.24px;
+    position:relative;
+    left:575px;
+    bottom:50px;
+    padding-right:38.1px;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+  
